@@ -14,3 +14,4 @@ Chicago (csv)
 
 ### Credits
 https://stackoverflow.com/questions/21291259/convert-floats-to-ints-in-pandas converting floats to ints in PANDA
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html Series values 
