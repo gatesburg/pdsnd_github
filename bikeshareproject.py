@@ -161,7 +161,7 @@ def user_stats(df):
 
     # TO DO: Display counts of gender
 
-    try:
+    try: #Handling an exception is usually a relatively expensive operation. So, exceptions should normally be used for exceptional events. Can use if/else statements
       gender_types = df['Gender'].value_counts()
       print('\nGender Types:\n\n', gender_types)
     except KeyError:
