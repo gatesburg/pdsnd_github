@@ -122,7 +122,7 @@ def station_stats(df):
 
     # TO DO: display most frequent combination of start station and end station trip
     # https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html
-    Combo_Station = df.groupby(['Start Station','End Station']).count().idxmax()[0] #most frequent combination!
+    Combo_Station = df.groupby(['Start Station','End Station']).count().idxmax()[0] #most frequent combination! Alternative of print((df["Start Station"] + " - " + df["End Station"]).value_counts().idxmax()) for same effect
     print('Most commonly used combination of start station and end station:', Start_Station, "and", End_Station)
 
 
