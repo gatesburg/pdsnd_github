@@ -9,8 +9,6 @@ Python code to import US bikeshare data and answer some questions about it by co
 
 In order to get the make the most of the raw data we imported NumPy and Pandas.
 
-Thanks Mike 
-
 ### Files used
 New York (csv)
 Washington (csv)
